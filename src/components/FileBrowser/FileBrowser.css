@@ -1,0 +1,12 @@
+.file-panel {
+  display: flex;
+  height: 100%;
+}
+
+.file-panel .file-panel__navigation {
+  min-width: 350px;
+}
+
+.file-panel .file-panel__content {
+  flex: 1;
+}

@@ -1,0 +1,14 @@
+.app-textarea {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  appearance: none;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  border-color: inherit;
+}

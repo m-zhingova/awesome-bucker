@@ -1,0 +1,25 @@
+.content-panel-item {
+  position: relative;
+}
+
+.content-panel-item__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.content-panel-item__name {
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.content-panel-item__menu {
+  position: absolute;
+  top: 0;
+  position: absolute;
+  right: 0;
+}

@@ -1,0 +1,12 @@
+.navigation-panel {
+  background: #201c26;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+  overflow: auto;
+  height: 100%;
+}
+
+.navigation-panel .navigation-panel__item {
+  padding: 24px 0;
+}

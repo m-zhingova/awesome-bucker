@@ -1,0 +1,10 @@
+.app-menu-item {
+  color: #201c26;
+  padding: 8px 16px;
+}
+
+.app-menu-item:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #201c26;
+}

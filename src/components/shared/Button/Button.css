@@ -1,0 +1,26 @@
+.app-button {
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  line-height: 1.2;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  background: #201c26;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 8px 16px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.app-button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

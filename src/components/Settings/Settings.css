@@ -1,0 +1,27 @@
+.settings {
+  background-color: #393143;
+  height: 100%;
+  padding: 48px;
+}
+
+.settings__title {
+  color: white;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.settings__form {
+  margin: auto;
+  border-radius: 6px;
+  padding: 24px;
+  background-color: #201c26;
+  width: 500px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.settings__error {
+  padding: 16px 0;
+  color: deeppink;
+}

@@ -1,25 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Main } from "./components/Main/Main";
+
+import { SettingsClientProvider } from "./store/SettingsClient/SettingsClientProvider";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SettingsClientProvider>
+      <div className="app">
+        <header className="app__header">
+          <h1 className="app__title">Awesome Bucket </h1>
+        </header>
+        <Main />
+      </div>
+    </SettingsClientProvider>
   );
 }
 

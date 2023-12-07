@@ -1,0 +1,14 @@
+.app-context-menu__content {
+  position: absolute;
+}
+
+.app-context-menu__children {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.app-context-menu__icon {
+  cursor: pointer;
+}

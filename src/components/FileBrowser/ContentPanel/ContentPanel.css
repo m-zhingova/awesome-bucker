@@ -1,0 +1,20 @@
+.content-panel {
+  background: #393143;
+  padding: 24px 32px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.content-panel__actions {
+  display: flex;
+  gap: 16px;
+  padding: 0 24px;
+}
+.content-panel__header {
+  margin-bottom: 24px;
+}
+
+.content-panel__list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
